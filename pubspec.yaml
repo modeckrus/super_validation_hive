@@ -1,7 +1,7 @@
 name: super_validation_hive
-description: A new Flutter package project.
+description: Super Validation Store powered on Hive
 version: 0.0.1
-homepage:
+homepage: https://github.com/modeckrus/super_validation_hive
 
 environment:
   sdk: '>=2.19.0 <3.0.0'
