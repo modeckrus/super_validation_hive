@@ -1,6 +1,6 @@
 name: super_validation_hive
 description: Super Validation Store powered on Hive
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/modeckrus/super_validation_hive
 
 environment:
@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   hive: ^2.2.3
-  super_validation: ^0.1.44
+  super_validation: ^0.1.48
 
 dev_dependencies:
   flutter_test:

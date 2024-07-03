@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 import 'package:super_validation/super_validation.dart';
+import 'package:super_validation/super_validation_a.dart';
 import 'package:super_validation_hive/super_validation_hive.dart';
 
 void main() {
@@ -113,7 +114,7 @@ class _MyHomePageState extends State<MyHomePage> {
 }
 
 class Repository {
-  SuperValidationEnum<List<Wrapper>> wrappers = SuperValidationEnum(
+  SuperValidationValue<List<Wrapper>> wrappers = SuperValidationValue(
     store: RepositoryStore('repository.wrappers'),
   );
 }
